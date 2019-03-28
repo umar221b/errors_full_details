@@ -40,7 +40,7 @@ Call `object.errors.full_details` to generate an array of error messages and cod
   },
   {
     message: "This error has a default code",
-    code: "default"
+    code: "0"
   }
 ]
 ```
