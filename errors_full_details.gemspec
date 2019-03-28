@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.version     = ErrorsFullDetails::VERSION
   spec.authors     = ['Umar Al-Kfaween']
   spec.email       = ['omar.ka923@gmail.com']
+  spec.homepage    = "https://github.com/umar221b/errors_full_details"
   spec.summary     = 'ErrorsFullDetails extends ActiveModel::Errors to allow adding error codes to error messages'
   spec.description = 'ErrorsFullDetails extends ActiveModel::Errors to allow adding error codes to error messages'
   spec.license     = 'MIT'
