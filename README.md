@@ -2,7 +2,7 @@
 Adds a new method to ActiveModel::Errors to display messages with codes using details.
 
 ## Usage
-Add the gem to your gem file. Add errors to your object with error codes:
+Add errors with codes to an object:
 
 ```ruby
 class Person < ApplicationRecord
@@ -26,7 +26,7 @@ class Person < ApplicationRecord
 end
 ```
 
-Call object.errors.full_details to get an array of hashes of error messages and codes:
+Call `object.errors.full_details` to generate an array of error messages and codes:
 
 ```ruby
 [
@@ -45,7 +45,7 @@ Call object.errors.full_details to get an array of hashes of error messages and 
 ]
 ```
 
-Errors added without an error code will return '0' as a default error code.
+Errors added without an error code will return `'0'` as a default error code.
 
 ## Installation
 Add this line to your application's Gemfile:
