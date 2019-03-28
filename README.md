@@ -1,4 +1,4 @@
-# ActiveModelFullDetails
+# ErrorsFullDetails
 Adds a new method to ActiveModel::Errors to display messages with codes using details.
 
 ## Usage
@@ -51,7 +51,7 @@ Errors added without an error code will return `'0'` as a default error code.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "active_model_full_details", git: "https://github.com/umar221b/active_model_full_details.git"
+gem "errors_full_details", git: "https://github.com/umar221b/errors_full_details.git"
 ```
 
 And then execute:

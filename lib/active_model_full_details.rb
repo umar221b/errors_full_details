@@ -1,5 +1,5 @@
-require 'active_model_full_details/railtie'
-require 'active_model_full_details/core_ext'
+require 'errors_full_details/railtie'
+require 'errors_full_details/core_ext'
 
-module ActiveModelFullDetails
+module ErrorsFullDetails
 end
