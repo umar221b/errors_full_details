@@ -51,7 +51,7 @@ Errors added without an error code will return `'0'` as a default error code.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'errors_full_details', '~> 0.0.3'
+gem 'errors_full_details', '~> 0.0.4'
 ```
 
 And then execute:
